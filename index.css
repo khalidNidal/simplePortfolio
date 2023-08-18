@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.container {
+   width: 100%;
+    margin: auto
+}
+
+@media only screen and (min-width :576px) {
+    .container {
+        width: 540px;
+    }
+}
+
+@media only screen and (min-width :768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media only screen and (min-width :992px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media only screen and (min-width :1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+
+
+/* start header */
+
+header {
+    height: 100vh;
+}
+
+header .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width :768px) {
+    header .container {
+        flex-direction: row;
+    }
+}
+
+header .image {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .about {
+    width: 50%;
+}
+
+header img {
+    border-radius: 20%;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .5);
+    width: 75%;
+}
+
+header span {
+    font-size: 20px;
+    display: block;
+    color: rgb(170, 196, 23);
+}
+
+
+
+header h1 {
+    font-size: 30PX;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+@media only screen and (min-width :800px) {
+    header h1 {
+        font-size: 45px;
+    }
+}
+
+
+header p {
+    font-size: 15px;
+    line-height: 15PX;
+    font-weight: 300;
+}
+
+
+
+@media only screen and (min-width :800px) {
+    header p {
+        font-size: 18PX;
+        line-height: 23px;
+    }
+}
+
+/* end header */
+
+
+
+/* start skills */
+
+.skills{
+    margin-top: 30px;
+    background-color: rgb(170, 196, 23 ,.5);
+    padding: 30px 0;
+}
+
+.skills .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media only screen and (min-width :768px) {
+    .skills .container{
+    flex-direction: row;
+    }
+    
+}
+
+
+.skills .pic img{
+    margin-top: 5px;
+    width: 60%;
+    border-radius: 25%;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, .5);  
+}
+
+.skills .pic {
+    width: 50%;
+    text-align: center;
+    
+}
+
+.skills .info {
+        text-align: center;
+    margin: auto;
+    width: auto;
+}
+
+@media only screen and (min-width: 768px){
+    .skills .info {
+    
+    width: 390px;
+}
+
+
+   
+    
+}
+
+.skills .info h2{
+    font-size: 50px;
+    margin-bottom:30px;
+    color: white;
+}
+
+@media only screen and (min-width: 768px){
+    .skills .info h2{
+        font-size: 70px;
+        margin-bottom:50px;
+        color: white;
+    }
+
+
+   
+    
+}
+
+    .skills .skill{
+                
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .skills .skillname{
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .skills .deg{
+        
+        font-weight: 500;
+        color: white;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    .skills .highlight{
+        width: 100%;
+        background-color: rgb(229 231 235);
+        height: 8px;
+    }
+
+
+
+
+.skills .Progress{
+    background-color: rgb(147, 167, 96);
+    height: 8px;
+}
+
+
+
+/* start contact info */
+.contact{
+    margin-top: 80px;
+    padding: 50px;
+
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+@media only screen and (min-width: 768px){
+    .flex{
+        flex-direction: row;
+        gap: 80px;
+
+       
+    }   
+    
+}
+@media only screen and (min-width: 1200px){
+    .flex{
+        flex-direction: row;
+        justify-content: space-between;
+
+
+       
+    }   
+    
+}
+
+
+.contact h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: rgb(170, 196, 23);
+}   
+
+.contact .info .text{
+    width: max-content;
+    font-size: medium;
+    margin-bottom: 20px;
+
+
+
+}
+@media only screen and (min-width: 768px){
+    .contact h2{
+        font-size: 45px;
+    }
+
+    .contact .info .text{
+        font-size: xx-large;
+        margin-bottom: 20px;
+
+
+
+    }
+    
+}
+
+
+
+.contact .info , .contact .mail ,.contact .githup{
+    width: 40%;
+}
+
+
+.contact .info p{
+    margin-bottom: 10px;
+}
+
+.contact .info .linkin i ,.contact .info .mail i , .contact .info .call i ,.contact .info .githup i {
+    color: rgb(170, 196, 23);
+    margin-right: 10px;
+    font-size: large;
+    margin-top: 5px;
+
+}
+
+@media only screen and (min-width: 768px){
+    .contact .info .linkin i ,.contact .info .mail i , .contact .info .call i ,.contact .info .githup i {
+        color: rgb(170, 196, 23);
+        margin-right: 10px;
+        font-size: x-large;
+        margin-top: 5px;
+    
+    }
+    
+}
+
+.contact .info .linkin span , .contact .info .mail span ,.contact .info .call span ,.contact .info .githup span{
+    display: flex;
+    width: max-content;
+    font-size: medium;
+    color: rgb(170, 196, 23);
+    font-weight: 600;
+}
+
+
+@media only screen and (min-width: 768px){
+    .contact .info .linkin span , .contact .info .mail span ,.contact .info .call span ,.contact .info .githup span{
+
+        font-size: large;
+        color: rgb(170, 196, 23);
+        font-weight: 600;
+    }
+    
+}
+
+
+.contact .info .linkin p,.contact .info .mail p,.contact .info .call p, .contact .info .githup p{
+    font-size: large; 
+    margin-left: 40px;
+
+}
+
+.form .subject{
+    display: block;
+    margin-top: 10px;
+    width: 92%;
+    margin-bottom: 10px;
+    
+}
+
+.form .message{
+    width: 100%;
+    border-radius: 5px;
+    border-color: rgba(128, 128, 128, 0.39);
+    
+    padding-top: 5px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+
+
+.form .name ,.form .email, .form .subject{
+border-radius: 3px;
+border: solid .5px;
+border-color: rgba(128, 128, 128, 0.39);
+padding-top: 5px;
+padding-bottom: 5px;
+padding-right: 30px;
+padding-left: 5px;
+
+
+}
+
+
+
+
+
